@@ -14,6 +14,8 @@ This is used to find each object's acceleration.
 
 ![Net acceleration due to net force](https://latex.codecogs.com/gif.latex?%5CLARGE%20%5Cvec%7Ba%7D_i%20%3D%20%5Cfrac%7B%5Cleft%28%20%5Cvec%7BF_%7B%5Ctext%7Bnet%7D%7D%7D%5Cright%29_i%7D%7Bm_i%7D)
 
+With the acceleration found, the velocity and position of each object in the next time step is found using forward Euler.
+
 ## Implementation
 
 ## Skills Demonstrated
