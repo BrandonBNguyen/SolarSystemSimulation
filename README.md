@@ -28,7 +28,10 @@ Running this algorithm continuously allows us to predict the motion of a set of 
 
 The `Planet` class is used to model an object in the solar system and is initialized with a unique name for the object, initial position, initial velocity, mass, radius, and color. Additionally, it can be configured to draw a line representing the path traversed during the simulation. This configuration is on by default.
 
-``` def __init__(self, name="Earth", initial_position=[0, 0], initial_velocity=[0, 0], mass=5.972 * pow(10, 24), radius=6356, color="blue", show_path=True):```
+``` Planet.Planet.__init__(self, name="Earth", initial_position=[0, 0], initial_velocity=[0, 0], mass=5.972 * pow(10, 24), radius=6356, color="blue", show_path=True):```
+
+`name`: A unique identifier for the object. This is used to ensure that the program doesn't attempt to calculate the gravitational force between this object and itself.
+'intiial position': A two element list representing the position in kilometers 
 
 ## Skills Demonstrated
 
