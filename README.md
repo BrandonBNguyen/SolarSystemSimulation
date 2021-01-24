@@ -18,6 +18,8 @@ With the acceleration found, the velocity and position of each object in the nex
 
 ![Forward euler algorithm](https://latex.codecogs.com/gif.latex?%5Chuge%20%5Cbegin%7Balign*%7D%20%5Cvec%7Bv%7D%28t_%7Bi&plus;1%7D%29%26%3D%5Cvec%7Ba%7D%28t_%7Bi&plus;1%7D%29%5C%3Bdt%20&plus;%20%5Cvec%7Bv%7D%28t_%7Bi%7D%29%5C%5C%20%5Cvec%7Bx%7D%28t_%7Bi&plus;1%7D%29%26%3D%5Cvec%7Bv%7D%28t_%7Bi&plus;1%7D%29%5C%3Bdt%20&plus;%20%5Cvec%7Bx%7D%28t_%7Bi%7D%29%20%5Cend%7Balign*%7D)
 
+Running this algorithm continuously allows us to predict the motion of a set of bodies over time given initial positions and velocities.
+
 ## Implementation
 
 ## Skills Demonstrated
