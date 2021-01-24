@@ -22,5 +22,7 @@ Running this algorithm continuously allows us to predict the motion of a set of 
 
 ## Implementation
 
+### The Planet Class
+
 ## Skills Demonstrated
 
