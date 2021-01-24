@@ -3,7 +3,7 @@ from Planet import Planet
 from Planet import Solar_system
 
 win = turtle.Screen()
-win.title("Two Body Problem Simulation")
+win.title("N-Body Problem Simulation")
 win.bgcolor("black")
 win.setup(width=800, height=800)
 
