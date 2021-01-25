@@ -97,12 +97,9 @@ The Earth, Moon, and the small satellite are each modeled as `Planet` objects an
 
 ## Skills Demonstrated
 
- - Familiarity with Python
-	 - Understanding of object-oriented programming 
-		 - Creating and implementing classes
-		 - Creating and using functions
-	 - Creating visualizations of simulations
- - Implementing numerical methods in code to solve differential equations.
+ - Demonstrated strong understanding of object-oriented programming and familiarity with Python.
+	 - Implemented classes and functions and provided well-written documentation to promote code reusability.
+ - Showcased ability to create graphical representations of modeled systems.
+ - Successfully implemented numerical methods in code to solve differential equations.
 	 - Understanding and implementing forward Euler method.
- - Understanding of fundamental laws of astrodynamics
-
+ - Demonstrated ability to model astrodynamic system and apply fundamental laws of astrodynamics.
