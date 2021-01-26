@@ -51,7 +51,7 @@ class Planet:
 
         # self.planet_turtle.goto(new_position[0]/400, new_position[1]/400)
 
-class Solar_system:
+class SolarSystem:
     def __init__(self, planets=[], focus=None, scale=400):
         self.planets = planets
         if focus == None:
@@ -77,11 +77,10 @@ class Solar_system:
             if self.focus_set:
                 x = (planet.position[0] - self.focus.position[0]) / self.scale
                 y = (planet.position[1] - self.focus.position[1]) / self.scale
-                planet.planet_turtle.goto(x, y)
             else:
                 x = planet.position[0] / self.scale
                 y = planet.position[1] / self.scale
-                planet.planet_turtle.goto(x, y)
+            planet.planet_turtle.goto(x, y)
 
     def update_solar_system(self, dt):
         for planet in self.planets:

@@ -1,6 +1,6 @@
 import turtle
-from Planet import Planet
-from Planet import Solar_system
+from SolarSystemSimulation import Planet
+from SolarSystemSimulation import SolarSystem
 
 win = turtle.Screen()
 win.title("N-Body Problem Simulation")
@@ -12,7 +12,7 @@ Moon = Planet(name="Moon", mass=7.3477 * pow(10, 22), color="gray",
               initial_position=[384400, 0], initial_velocity=[0, 1])
 small_satellite = Planet(name="Satellite", mass=1500, color="yellow",
                          initial_position=[410000, 0], initial_velocity=[0, 0.5])
-sol = Solar_system(planets=[Earth, Moon, small_satellite], focus=Earth, scale=1200)
+sol = SolarSystem(planets=[Earth, Moon, small_satellite], focus=Earth, scale=1200)
 
 dt = 10
 running = True
