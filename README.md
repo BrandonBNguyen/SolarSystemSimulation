@@ -85,7 +85,7 @@ Updates the velocities and positions of all `Planet` objects in the solar system
 
 #### plot_solar_system()
 
-```SolarSystemSimulation.SolarSystem.update_solar_system(dt)```
+```SolarSystemSimulation.SolarSystem.plot_solar_system()```
 
 Updates the position of each object in the solar system on the program window.
 
